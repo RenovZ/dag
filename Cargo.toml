@@ -3,6 +3,14 @@ name = "dag"
 version = "0.1.0"
 edition = "2024"
 
+authors = ["RenovZ <cgsixv@gmail.com>"]
+description = "A DAG runner with async support"
+license = "MIT"
+repository = "https://github.com/RenovZ/dag"
+readme = "README.md"
+keywords = ["dag", "async", "graph"]
+categories = ["concurrency", "data-structures"]
+
 [dependencies]
 anyhow = "1.0"
 tokio = { version = "1.46", features = ["full"] }
